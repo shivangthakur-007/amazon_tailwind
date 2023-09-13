@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/0a0635d0f0.js" crossorigin="anonymous"></script>
 </head>
 <body>
-        <header class="fixed w-[100vw] bg-cover bg-[url('/assets/BG.png')] flex items-center justify-between pl-9 pr-9
+        <header class="sticky top-0 w-[100vw] bg-cover bg-[url('/assets/BG.png')] flex items-center justify-between pl-9 pr-9
          pt-3 pb-3 ">
             <div><img src="/assets/Logo.png" class="w-8/12" alt=""></div>
             <div>
@@ -104,21 +104,25 @@
             <img src="/assets/Decorations.png" alt="">
         </div>
     </nav>
-    <nav class="flex justify-around">
-        <div>
-            <div><img src="" alt=""></div>
-            <div><img src="" alt=""><img src="" alt=""><img src="" alt=""></div>
+    <nav class="flex  pt-[2rem] pb-[2rem] pl-[4rem] pr-[4rem]  ">
+        <div class="flex flex-col gap-3 items-center w-3/12 justify-start">
+            <div><img class="w-[50px]" src="/assets/Logo.png"  alt=""></div>
+            <div class="flex gap-2">
+                <i class="text-gray-400 text-xl fa-brands fa-facebook"></i>
+                <i class="text-gray-400 text-xl fa-brands fa-instagram"></i>
+                <i class="text-gray-400 text-xl fa-brands fa-youtube"></i>
+            </div>
         </div>
-        <div><p>An awesome & powerful tools for your bussiness revenue. with evaluating in depth variety of data sets and including the speed of tech adaptation we can build bridges between any companies and their customers.</p></div>
-        <div class="flex justify-around ">
-            <ul>
+        <div class="text-md  "><p>An awesome & powerful tools for your bussiness revenue. with evaluating in depth variety of data sets and including the speed of tech adaptation we can build bridges between any companies and their customers.</p></div>
+        <div class="flex gap-4  justify-center">
+            <ul class="pr-[4rem] flex flex-col gap-2 text-lg font-semibold">
                 <h1>Home</h1>
                 <li>Features</li>
                 <li>Solutions</li>
                 <li>Resources</li>
                 <li>Pricing</li>
             </ul>
-            <ul>
+            <ul class="pl-[2rem] flex flex-col gap-2 text-lg font-semibold">
                 <h4>About Us</h4>
                 <li>Company</li>
                 <li>Contact</li>
@@ -126,20 +130,20 @@
             </ul>
         </div>
    </nav>
-    <footer>
+    <footer class="flex  justify-between pt-[1rem] pb-[1rem] pl-[2rem] pr-[2rem] bg-[#000] ">
         <div><p>
             ©2022-23 Trustco.
         </p></div>
         <div>
-            <ul>
+            <ul class="flex gap-3 text-sm">
                 <li>Terms of Service</li>
                 <li>Privacy Policy</li>
                 <li>Language</li>
             </ul>
         </div>
         <div>
-            <span><i class="fa-solid fa-globe"></i></span>
-            <span>English</span>
+            <span><i class=" fa-solid fa-globe"></i></span>
+            <span class="text-md">English</span>
             <span><i class="fa-sharp fa-solid fa-caret-down"></i></span>
         </div>
     </footer>
